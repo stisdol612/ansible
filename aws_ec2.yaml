@@ -1,0 +1,7 @@
+---
+plugin: aws_ec2
+aws_access_key: AKIAT465GKTRZO6DHCTZ
+aws_secret_key: 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
+keyed_groups:
+  - key: Name
+    prefix: Linux
