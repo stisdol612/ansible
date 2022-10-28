@@ -1,6 +1,7 @@
 ---
 plugin: aws_ec2
 ec2 instance role: Prometheus-ASG
+regions: us-east-1
 keyed_groups:
   - key: Name
     prefix: Linux
