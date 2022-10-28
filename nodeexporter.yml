@@ -1,6 +1,6 @@
 ---
 - name: Node Exporter
-  hosts: localhost
+  hosts: aws_ec2 plugin
   become: yes
 
   tasks:
