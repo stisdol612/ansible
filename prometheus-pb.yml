@@ -35,7 +35,7 @@
        src: ~/ansible/prometheus.service.j2 
        dest: /etc/systemd/system/prometheus.service
        remote_src: yes
-       mode: 0755
+       mode: 0644
 
    - name: reload daemon
      command: systemctl daemon-reload
